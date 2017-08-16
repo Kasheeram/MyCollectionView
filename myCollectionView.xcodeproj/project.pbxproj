@@ -14,6 +14,7 @@
 		A192C3151DF96E3600FBEB7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A192C3131DF96E3600FBEB7D /* LaunchScreen.storyboard */; };
 		A192C3201DF96E3600FBEB7D /* myCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A192C31F1DF96E3600FBEB7D /* myCollectionViewTests.swift */; };
 		A192C32B1DF96E3600FBEB7D /* myCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A192C32A1DF96E3600FBEB7D /* myCollectionViewUITests.swift */; };
+		A192C3391DF9712500FBEB7D /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A192C3381DF9712500FBEB7D /* myCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A192C3261DF96E3600FBEB7D /* myCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A192C32A1DF96E3600FBEB7D /* myCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewUITests.swift; sourceTree = "<group>"; };
 		A192C32C1DF96E3600FBEB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A192C3381DF9712500FBEB7D /* myCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A192C30A1DF96E3600FBEB7D /* AppDelegate.swift */,
+				A192C3381DF9712500FBEB7D /* myCollectionViewCell.swift */,
 				A192C30C1DF96E3600FBEB7D /* ViewController.swift */,
 				A192C30E1DF96E3600FBEB7D /* Main.storyboard */,
 				A192C3111DF96E3600FBEB7D /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A192C3391DF9712500FBEB7D /* myCollectionViewCell.swift in Sources */,
 				A192C30D1DF96E3600FBEB7D /* ViewController.swift in Sources */,
 				A192C30B1DF96E3600FBEB7D /* AppDelegate.swift in Sources */,
 			);
